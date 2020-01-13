@@ -1,0 +1,166 @@
+
+/*Comment Style*/
+
+style h2.comments-title {
+     display: block;
+     border-bottom: 1px solid #333;
+     margin-bottom: 30px;
+}
+ h2.comments-title span {
+     background-color: #333;
+     display: inline-block;
+     color: #fff;
+     padding: 8px 16px;
+     font-size: 16px;
+}
+ .comment-body {
+     list-style: none;
+     margin-left: 0;
+     padding-bottom: 15px;
+     border-bottom: 1px dashed #ededed;
+     margin-bottom: 21px;
+}
+ .comment-body .avatar {
+     float: left;
+     margin-right: 20px;
+     margin-bottom: 20px;
+     width: 50px;
+     height: auto;
+}
+ img {
+     max-width: 100%;
+}
+ .comment-body .fn {
+     font-weight: 700;
+     font-style: normal;
+     font-size: 14px;
+     line-height: 1;
+     display: inline-block;
+}
+ .comment-metadata {
+     display: inline-block;
+     font-size: 12px;
+     line-height: 1;
+     color: #b4b4b4;
+}
+ .comment-content {
+     font-size: 15px;
+     line-height: 1.74;
+     color: #222;
+     display: block;
+     margin-left: 70px;
+}
+ a.comment-reply-link {
+     font-size: 11px;
+     color: #b4b4b4;
+}
+ .reply {
+     margin-left: 70px;
+}
+ a.comment-reply-link:hover {
+     color: #FCB525;
+}
+ ol.children {
+     margin-left: 70px;
+     padding-top: 16px;
+     margin-top: 13px;
+}
+ div#respond {
+     margin-bottom: 50px;
+}
+ h3#reply-title {
+     font-size: 16px;
+     font-weight: 700;
+     margin-bottom: 2px;
+     margin-top: 10px;
+     text-transform: uppercase;
+}
+ p.logged-in-as {
+     font-size: 14px;
+     margin-bottom: 20px;
+}
+ #commentform label {
+     display: block;
+     padding-bottom: 10px;
+     font-size: 16px;
+     font-weight: 600;
+}
+ #commentform textarea {
+     border: 1px solid rgb(225, 225, 225);
+     outline: none;
+     display: block;
+     width: 100%;
+     font-size: 14px;
+     line-height: 1;
+     color: #333;
+     min-height: 168px;
+     padding: 6px 9px;
+     max-width: 100%;
+     margin-bottom: 10px;
+}
+ #commentform input[type=text], #commentform input[type=email], #commentform input[type=url] {
+     border: 1px solid rgb(225, 225, 225);
+     outline: none;
+     font-size: 14px;
+     width: 100%;
+     max-width: 100%;
+     height: 34px;
+     padding: 3px 9px;
+     margin-bottom: 10px;
+}
+ p.comment-form-cookies-consent label {
+     display: inline-block !important;
+     margin-left: 8px !important;
+     font-weight: 400 !important;
+}
+ #commentform input[type=submit] {
+     font-family: roboto,sans-serif;
+     font-size: 13px;
+     background-color: #333;
+     border-radius: 0;
+     color: #fff;
+     border: none;
+     padding: 8px 15px;
+     font-weight: 500;
+     cursor: pointer;
+     transition: background-color .3s;
+     margin-top: 20px;
+     outline: none;
+}
+ #commentform input[type=submit]:hover {
+     background-color: #FCB525;
+}
+ p.no-comments {
+     color: red;
+     padding-bottom: 30px;
+     font-size: 18px;
+     font-weight: 700;
+}
+ .nav-links {
+     margin: 30px 0px;
+}
+ .nav-previous {
+     display: inline-block;
+     float: left;
+     margin-right: 20px;
+     font-weight: 700;
+}
+ .nav-next {
+     display: inline-block;
+     font-weight: 700;
+}
+ @media all and (max-width: 600px) {
+     ol.children {
+         margin-left: 30px;
+    }
+}
+ @media all and (max-width: 400px) {
+     ol.children {
+         margin-left: 10px;
+    }
+     .comment-metadata a{
+         font-size: 10px;
+    }
+}
+
+/*Comment Style End*/
